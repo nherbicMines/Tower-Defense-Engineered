@@ -14,3 +14,9 @@ https://opengameart.org/content/zombie-rpg-sprites
 
 Tower Resources
 https://opengameart.org/content/tower-defense
+
+Engineer Spritesheet
+https://www.deviantart.com/kugawattan/art/Engineer-FFVI-styled-Sprite-Sheet-580535730
+
+Icon Pack
+https://marketplace.yoyogames.com/assets/2868/icon-pack
