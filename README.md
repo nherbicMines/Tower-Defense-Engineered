@@ -9,7 +9,7 @@
 -----Level Design Ideas------
 - Enemies run in lanes with a layer system set up so the player/towers are on an upper layer connected by bridges that enemies run under towards the base
 - Open map that player can add/purchase Barricades to force enemies into bottle necks or let them walk right past in open field 
-    -- This bring up the Opens up the convo of do we want the player to be able to interact i.e. kill enemies and/or die by getting hit by them
+    - This bring up the Opens up the convo of do we want the player to be able to interact i.e. kill enemies and/or die by getting hit by them
 
 
 
