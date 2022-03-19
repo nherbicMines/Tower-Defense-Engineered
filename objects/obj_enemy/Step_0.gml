@@ -15,3 +15,8 @@ if ((point_distance(x, y, obj_tower.x, obj_tower.y) < 40) && !stopped) {
 	alarm[1] = room_speed * 2;
 }
 */
+
+// If out of health, destroy this enemy
+if (hitsLeft == 0) {
+	instance_destroy();
+}
