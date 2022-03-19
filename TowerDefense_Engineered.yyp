@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"spr_tree1","path":"sprites/spr_tree1/spr_tree1.yy",},"order":9,},
+    {"id":{"name":"obj_empty_tower","path":"objects/obj_empty_tower/obj_empty_tower.yy",},"order":4,},
     {"id":{"name":"spr_town_tile_set","path":"sprites/spr_town_tile_set/spr_town_tile_set.yy",},"order":14,},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":1,},
     {"id":{"name":"spr_tree2","path":"sprites/spr_tree2/spr_tree2.yy",},"order":8,},
@@ -12,7 +13,6 @@
     {"id":{"name":"spr_tower1","path":"sprites/spr_tower1/spr_tower1.yy",},"order":15,},
     {"id":{"name":"spr_empty_tower","path":"sprites/spr_empty_tower/spr_empty_tower.yy",},"order":16,},
     {"id":{"name":"spr_gate","path":"sprites/spr_gate/spr_gate.yy",},"order":11,},
-    {"id":{"name":"obj_no_tower","path":"objects/obj_no_tower/obj_no_tower.yy",},"order":3,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"fnt_message","path":"fonts/fnt_message/fnt_message.yy",},"order":0,},
     {"id":{"name":"spr_barrel","path":"sprites/spr_barrel/spr_barrel.yy",},"order":12,},
