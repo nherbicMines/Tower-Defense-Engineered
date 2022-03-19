@@ -9,6 +9,7 @@
 - Player interact with Tower done through a mouse click when in proximity (opens some sort of menu with options)
     - I think the menu is a good idea. Was considering giving an option to select targeting priority of enemies
 - Enemy that has the ability to stun towers temporarily
+- Player can shoot at enemies using the mouse (we can remove this but the code is there which will be helpful for mouse interactions)
 
 
 -----Level Design Ideas------
