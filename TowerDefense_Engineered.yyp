@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"spr_tree1","path":"sprites/spr_tree1/spr_tree1.yy",},"order":7,},
     {"id":{"name":"obj_empty_tower","path":"objects/obj_empty_tower/obj_empty_tower.yy",},"order":4,},
+    {"id":{"name":"obj_base","path":"objects/obj_base/obj_base.yy",},"order":8,},
     {"id":{"name":"spr_town_tile_set","path":"sprites/spr_town_tile_set/spr_town_tile_set.yy",},"order":12,},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"order":6,},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":1,},
