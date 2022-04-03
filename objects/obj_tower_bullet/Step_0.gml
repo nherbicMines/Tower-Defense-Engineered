@@ -9,7 +9,6 @@ var cam_h = camera_get_view_height(cam);
 
 if (x < cam_x || x > (cam_x + cam_w) || y < cam_y || y > (cam_y + cam_h)) {
 	instance_destroy();
-	show_debug_message("Bullet Destroyed");
 }
 
 if instance_exists(obj_enemy) {
