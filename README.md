@@ -19,7 +19,9 @@
     - This bring up the Opens up the convo of do we want the player to be able to interact i.e. kill enemies and/or die by getting hit by them
     - Doing an open field with barricades would make 
 
-
+----Stretch Goals----
+- Enemies that attack tower/Different types of enemy 
+- Randomly spawning enemy locations
 
 --------Resources---------
 
