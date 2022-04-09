@@ -14,11 +14,19 @@ speedUD = spd * moveUD;
 x += speedLR;
 y += speedUD;
 
+//Points the player in the direction of the mouse
+image_angle = point_direction(x,y,mouse_x,mouse_y);
+
 // Player shooting where-ever they clicked
-if (mouse_check_button_pressed(mb_left)) {
+if (mouse_check_button(mb_left) && cooldown < 1) {
 	var currBullet = instance_create_layer(x, y, "Instances", obj_bullet);
+	cooldown = 50;
 	with currBullet {
 		move_towards_point(mouse_x, mouse_y, 5);
 	}
 }
+
+cooldown -= 1;
+
+
 
