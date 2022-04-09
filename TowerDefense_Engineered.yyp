@@ -20,6 +20,7 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"order":5,},
     {"id":{"name":"fnt_message","path":"fonts/fnt_message/fnt_message.yy",},"order":0,},
+    {"id":{"name":"fnt_healthbar","path":"fonts/fnt_healthbar/fnt_healthbar.yy",},"order":1,},
     {"id":{"name":"spr_barrel","path":"sprites/spr_barrel/spr_barrel.yy",},"order":10,},
     {"id":{"name":"spr_house3","path":"sprites/spr_house3/spr_house3.yy",},"order":4,},
     {"id":{"name":"obj_tower","path":"objects/obj_tower/obj_tower.yy",},"order":2,},

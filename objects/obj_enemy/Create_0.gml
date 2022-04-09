@@ -1,6 +1,6 @@
 /// @description Initialize variables
 
-spd = 2;
+spd = 1;
 stopped = false;
 
 // Start path
@@ -10,4 +10,7 @@ image_xscale = .5;
 image_yscale = .5;
 
 // How many more bullets the enemy can take
-hitsLeft = 1;
+hitsLeft = 3;
+
+//For health bar
+tick_length = sprite_width/hitsLeft;
