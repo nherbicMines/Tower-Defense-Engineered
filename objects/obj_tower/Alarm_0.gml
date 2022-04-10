@@ -8,4 +8,4 @@ if (instance_exists(obj_enemy) && bulletCount >0)  {
 	}
 }
 
-alarm[0] = room_speed * 1;
+alarm[0] = room_speed * shot_delay;
