@@ -6,7 +6,7 @@ startingBullets = 20
 bulletCount = startingBullets;
 
 upgraded = false;
-shot_delay = 1;
+shot_delay = 0.5;
 
 tick_length = sprite_width/bulletCount;
 

@@ -1,9 +1,10 @@
 /// @description Initialize variables
 
 
-spd = 4;
+spd = 2;
 LRspd = 0;
 UDspd = 0;
+hitsLeft = 10;
 
 cooldown = 0;
 
@@ -13,3 +14,5 @@ image_yscale = .5;
 // Cooldown on reload and upgrades
 can_reload = true;
 can_upgrade = true;
+
+tick_length = sprite_width/hitsLeft;
