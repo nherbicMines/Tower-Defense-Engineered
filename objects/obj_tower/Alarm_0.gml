@@ -1,5 +1,5 @@
 /// @description Tower Shooting
-if (instance_exists(obj_enemy) && bulletCount >0)  {
+if (instance_exists(obj_enemy) && bulletCount > 0)  {
 	var currBullet = instance_create_layer(x, y, "Instances", obj_tower_bullet);
 	bulletCount -=1;
 	with currBullet {

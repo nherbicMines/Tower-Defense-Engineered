@@ -23,13 +23,14 @@ else {
 
 
 // Reload bullets
-if(active && keyboard_check_pressed(ord("X")) && obj_player.can_reload){
+if(active && keyboard_check_pressed(vk_space) && can_reload){
 	bulletCount = startingBullets;
 	obj_player.can_reload = false;
-	obj_player.alarm[0] = room_speed * 10;
+	can_reload = false;
+	alarm[1] = room_speed * 5;
 }
 // Upgrade tower
-if(active && keyboard_check_pressed(ord("U")) && (!upgraded) && obj_player.can_upgrade){
+if(active && mouse_check_button(mb_right) && (!upgraded) && obj_player.can_upgrade){
 	startingBullets = 40;
 	bulletCount *= 2;
 	shot_delay = 0.5;

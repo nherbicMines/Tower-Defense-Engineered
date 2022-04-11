@@ -40,7 +40,7 @@ if(active){
 	draw_set_font(fnt_healthbar);
 	draw_set_color(c_white);
 	if (!upgraded) {
-		draw_text(x-45, y-70, "Press U To Upgrade");
+		draw_text(x-45, y-70, "Press RMB To Upgrade");
 	}
-	draw_text(x-45, y-84, "Press X To Reload");
+	draw_text(x-45, y-84, "Press SPACE To Reload");
 }

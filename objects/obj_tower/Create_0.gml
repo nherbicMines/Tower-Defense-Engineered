@@ -1,6 +1,5 @@
 /// @description Initialize variables
 alarm[0] = room_speed * 2;
-alarm[1] = room_speed * 5;
 
 startingBullets = 20
 bulletCount = startingBullets;
@@ -16,7 +15,6 @@ barAlpha = 1;
 // For interaction with player
 active = false;
 can_reload = true;
-can_upgrade = false;
 
 
 // alt healthbar
