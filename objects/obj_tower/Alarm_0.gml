@@ -4,7 +4,11 @@ if (instance_exists(obj_enemy) && bulletCount > 0)  {
 	bulletCount -=1;
 	with currBullet {
 		inst = instance_nearest(x, y, obj_enemy);
-		move_towards_point(inst.x, inst.y, 5);
+		if ((inst.x < room_width && inst.x > 0) && (inst.y < room_height && inst.y > 0)) {
+			move_towards_point(inst.x, inst.y, 5);
+		} else {
+			instance_destroy(currBullet);
+		}
 	}
 }
 

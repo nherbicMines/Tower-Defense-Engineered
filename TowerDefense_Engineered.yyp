@@ -20,6 +20,7 @@
     {"id":{"name":"spr_tower1","path":"sprites/spr_tower1/spr_tower1.yy",},"order":13,},
     {"id":{"name":"spr_empty_tower","path":"sprites/spr_empty_tower/spr_empty_tower.yy",},"order":14,},
     {"id":{"name":"spr_gate","path":"sprites/spr_gate/spr_gate.yy",},"order":9,},
+    {"id":{"name":"fnt_announce","path":"fonts/fnt_announce/fnt_announce.yy",},"order":2,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"order":5,},
     {"id":{"name":"fnt_message","path":"fonts/fnt_message/fnt_message.yy",},"order":0,},

@@ -1,6 +1,7 @@
 /// @description Initialize variables
 
-spd = 1;
+// Enemies following longer path are slightly faster, otherwise they pose no threat
+spd = 3;
 stopped = false;
 
 // Start path
