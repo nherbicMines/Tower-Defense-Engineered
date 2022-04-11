@@ -8,6 +8,7 @@
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"order":6,},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":1,},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},"order":15,},
+    {"id":{"name":"snd_level_music","path":"sounds/snd_level_music/snd_level_music.yy",},"order":0,},
     {"id":{"name":"spr_tree2","path":"sprites/spr_tree2/spr_tree2.yy",},"order":6,},
     {"id":{"name":"spr_tile_pavement","path":"sprites/spr_tile_pavement/spr_tile_pavement.yy",},"order":5,},
     {"id":{"name":"spr_house2","path":"sprites/spr_house2/spr_house2.yy",},"order":3,},
