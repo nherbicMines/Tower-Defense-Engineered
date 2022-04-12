@@ -1,9 +1,9 @@
 # Tower-Defense-Engineered
 -----User Controls-----
-Movement: WASD
-Player shoot: Left click
-Reload towers: Spacebar (when not on cooldown)
-Upgrade towers: Right click (when not on cooldown)
+- Movement: WASD
+- Player shoot: Left click
+- Reload towers: Spacebar (when not on cooldown)
+- Upgrade towers: Right click (when not on cooldown)
 
 
 -----Gameplay Ideas------
