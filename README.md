@@ -1,4 +1,11 @@
 # Tower-Defense-Engineered
+-----User Controls-----
+Movement: WASD
+Player shoot: Left click
+Reload towers: Spacebar (when not on cooldown)
+Upgrade towers: Right click (when not on cooldown)
+
+
 -----Gameplay Ideas------
 - Towers have an RNG added to their accuracy that can be inproved through upgrades
 - Player has to recharge/reload towers (less often on upgrade)
