@@ -5,6 +5,7 @@
     {"id":{"name":"obj_empty_tower","path":"objects/obj_empty_tower/obj_empty_tower.yy",},"order":4,},
     {"id":{"name":"obj_base","path":"objects/obj_base/obj_base.yy",},"order":8,},
     {"id":{"name":"spr_town_tile_set","path":"sprites/spr_town_tile_set/spr_town_tile_set.yy",},"order":12,},
+    {"id":{"name":"fnt_title","path":"fonts/fnt_title/fnt_title.yy",},"order":3,},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"order":6,},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":1,},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},"order":15,},
@@ -21,6 +22,7 @@
     {"id":{"name":"spr_tower1","path":"sprites/spr_tower1/spr_tower1.yy",},"order":13,},
     {"id":{"name":"spr_empty_tower","path":"sprites/spr_empty_tower/spr_empty_tower.yy",},"order":14,},
     {"id":{"name":"spr_gate","path":"sprites/spr_gate/spr_gate.yy",},"order":9,},
+    {"id":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},"order":1,},
     {"id":{"name":"fnt_announce","path":"fonts/fnt_announce/fnt_announce.yy",},"order":2,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"order":5,},
@@ -35,6 +37,7 @@
     {"id":{"name":"fnt_healthbar","path":"fonts/fnt_healthbar/fnt_healthbar.yy",},"order":1,},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"order":8,},
     {"id":{"name":"spr_healthbar","path":"sprites/spr_healthbar/spr_healthbar.yy",},"order":18,},
+    {"id":{"name":"obj_title","path":"objects/obj_title/obj_title.yy",},"order":11,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -50,6 +53,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "Folders": [
