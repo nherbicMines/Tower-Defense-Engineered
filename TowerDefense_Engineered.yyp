@@ -17,8 +17,10 @@
     {"id":{"name":"spr_house1","path":"sprites/spr_house1/spr_house1.yy",},"order":2,},
     {"id":{"name":"spr_tower1_upgraded","path":"sprites/spr_tower1_upgraded/spr_tower1_upgraded.yy",},"order":16,},
     {"id":{"name":"spr_healthbar_border","path":"sprites/spr_healthbar_border/spr_healthbar_border.yy",},"order":17,},
+    {"id":{"name":"obj_enemyUp","path":"objects/obj_enemyUp/obj_enemyUp.yy",},"order":12,},
     {"id":{"name":"path_enemy1","path":"paths/path_enemy1/path_enemy1.yy",},"order":0,},
     {"id":{"name":"obj_tower_bullet","path":"objects/obj_tower_bullet/obj_tower_bullet.yy",},"order":7,},
+    {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},"order":2,},
     {"id":{"name":"spr_tower1","path":"sprites/spr_tower1/spr_tower1.yy",},"order":13,},
     {"id":{"name":"spr_empty_tower","path":"sprites/spr_empty_tower/spr_empty_tower.yy",},"order":14,},
     {"id":{"name":"spr_gate","path":"sprites/spr_gate/spr_gate.yy",},"order":9,},
@@ -53,6 +55,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
     {"roomId":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],

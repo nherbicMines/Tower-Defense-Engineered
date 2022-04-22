@@ -4,7 +4,7 @@
 if (global.base_lives > 1) {
 	global.base_lives = global.base_lives - 1;
 }
-else {
+else if (global.base_lives == 1) {
 	global.base_lives = 0;
 	//TODO: Game Over stuff goes here
 }

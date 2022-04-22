@@ -16,3 +16,5 @@ option[1] = "How to Play";
 option[2] = "Quit";
 
 op_size = array_length(option);
+
+window_set_fullscreen(true);
