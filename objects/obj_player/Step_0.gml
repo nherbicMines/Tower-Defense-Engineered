@@ -10,12 +10,17 @@ var moveUD = keydown - keyup;
 
 speedLR = spd * moveLR;
 speedUD = spd * moveUD;
+if (speedLR == 0 && speedUD == 0){
+	image_speed = 0;
+} else {
+	image_speed = 1;
+}
 
 x += speedLR;
 y += speedUD;
 
 //Points the player in the direction of the mouse
-image_angle = point_direction(x,y,mouse_x,mouse_y);
+
 
 // Player shooting where-ever they clicked
 if (mouse_check_button(mb_left) && cooldown < 1) {
