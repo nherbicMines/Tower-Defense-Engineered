@@ -1,7 +1,7 @@
 /// @description Initialize variables
 
 
-spd = 2;
+spd = 3;
 LRspd = 0;
 UDspd = 0;
 hitsLeft = 10;

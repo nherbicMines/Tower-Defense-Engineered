@@ -11,7 +11,13 @@ global.base_lives = 5;
 
 global.level = 1;
 
-global.enemies_left = instance_number(obj_enemy);
+global.enemies_left = instance_number(obj_enemy) 
++ instance_number(obj_enemyDown1)
++ instance_number(obj_enemyDown2)
++ instance_number(obj_enemyDown3)
++ instance_number(obj_enemyDown4)
++ instance_number(obj_enemyDown5)
++ instance_number(obj_enemyDown6);
 
 global.game_state = STATE.PLAYING;
 

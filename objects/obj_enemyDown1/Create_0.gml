@@ -1,5 +1,5 @@
 /// @description Insert description here
-spd = 1;
+spd = 0.5;
 stopped = false;
 
 image_xscale = .5;

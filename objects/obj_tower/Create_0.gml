@@ -1,7 +1,7 @@
 /// @description Initialize variables
 alarm[0] = room_speed * 2;
 
-startingBullets = 10
+startingBullets = 15
 bulletCount = startingBullets;
 
 upgraded = false;
