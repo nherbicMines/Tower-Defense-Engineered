@@ -16,8 +16,13 @@ if (speedLR == 0 && speedUD == 0){
 	image_speed = 1;
 }
 
-x += speedLR;
-y += speedUD;
+// Move player if it won't lead to out of bounds
+if (((x + speedLR) > 0) && ((x + speedLR) < room_width)) {
+	x += speedLR;
+}
+if (((y + speedUD) > 0) && ((y + speedUD) < room_height)) {
+	y += speedUD;
+}
 
 //Points the player in the direction of the mouse
 
