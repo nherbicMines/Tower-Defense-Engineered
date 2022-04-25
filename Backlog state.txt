@@ -1,0 +1,20 @@
+Features:
+Player Movement (finished)
+Sprites for all assets (finished)
+Tower object (finished)
+Tower attacks (finished)
+Enemy objects (finished)
+Enemy pathing (finished)
+First/Second levels (finished)
+Background & map (finished)
+Title screen w/ instructions (finished)
+Creating towers (finished)
+Repair system for towers (finished)
+Castle/base object (turned into wall object - finished)
+Enemy AI (finished)
+User Interface (finished)
+Player attacks (done)
+Player death (not implemented)
+Health bar for enemies (done)
+
+Overall we got mostly everything we wanted to implement finished for our Beta.
