@@ -25,8 +25,8 @@ Our Thoughts:
 
 
 Bugs:
-Esc button doesn’t work at end of 2nd level
-Player can walk through wall to base
+- Esc button doesn’t work at end of 2nd level
+- Player can walk through wall to base
 
 
 -----User Controls-----
