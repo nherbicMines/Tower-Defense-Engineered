@@ -18,3 +18,5 @@ option[2] = "Quit";
 op_size = array_length(option);
 
 window_set_fullscreen(true);
+
+audio_play_sound(snd_title_music, 0, true);

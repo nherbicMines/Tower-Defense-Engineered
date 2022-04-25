@@ -26,11 +26,13 @@ else {
 if(active && keyboard_check_pressed(vk_space) && can_reload){
 	bulletCount = startingBullets;
 	obj_player.can_reload = false;
+	audio_play_sound(snd_reload, 1, false);
 	can_reload = false;
 	alarm[1] = room_speed * 5;
 }
 // Upgrade tower
 if(active && mouse_check_button(mb_right) && (!upgraded) && obj_player.can_upgrade){
+	audio_play_sound(snd_tower_upgrade, 2, false);
 	startingBullets = 40;
 	bulletCount *= 2;
 	shot_delay = 0.5;

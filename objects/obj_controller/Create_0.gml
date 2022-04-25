@@ -23,6 +23,7 @@ global.game_state = STATE.PLAYING;
 
 alarm[0] = room_speed;
 
+audio_stop_sound(snd_title_music);
 audio_play_sound(snd_level_music, 0, true);
 
 window_set_fullscreen(true);

@@ -26,6 +26,7 @@ y += speedUD;
 if (mouse_check_button(mb_left) && cooldown < 1) {
 	var currBullet = instance_create_layer(x, y, "Instances", obj_bullet);
 	cooldown = 50;
+	audio_play_sound(snd_shoot, 2, false);
 	with currBullet {
 		move_towards_point(mouse_x, mouse_y, 5);
 	}

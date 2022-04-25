@@ -18,5 +18,6 @@ if ((point_distance(x, y, obj_tower.x, obj_tower.y) < 40) && !stopped) {
 
 // If out of health, destroy this enemy
 if (hitsLeft <= 0) {
+	audio_play_sound(snd_enemy_death, 0, false);
 	instance_destroy();
 }

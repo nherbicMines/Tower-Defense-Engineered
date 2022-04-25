@@ -19,3 +19,11 @@ if (global.game_state == STATE.WON) {
 	draw_set_color(c_green);
 	draw_text(room_width / 2 - 100, room_height / 2 - 100, "VICTORY");
 }
+
+if (obj_player.alarm[1]) {
+	draw_set_color(c_red);
+	draw_text(0, 60, "Cannot upgrade again for ["+ string(ceil(obj_player.alarm[1]/room_speed)) +"] more seconds");
+} else {
+	draw_set_color(c_green);
+	draw_text(0, 60, "Upgrade ready!");
+}
