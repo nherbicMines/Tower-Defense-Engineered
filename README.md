@@ -1,4 +1,34 @@
 # Tower-Defense-Engineered
+------Play Test Feedback -------
+
+
+Player thoughts:
+-	Tower bullets keep tracking after the enemy they shot dies
+-	Tower shots a little fast or player shots a little slow
+-	Better Transition between levels
+-	All tower proximity buttons might be keyboard based? 
+-	3 Liked Tower bullet decay 2 not 
+-	Make Upgrade more visual (change bullet color?)
+-	Make Base Health more visible
+-	Make selected option on menu black? More visible
+-	No visual feedback for reload CD
+-	Upgrade CD more visual 
+-	2nd level infinite? Or just extend levels (game short)
+
+Our Thoughts:
+-	Add MainChar to Title
+-	Make Title options clickable with mouse
+-	Better Transition between levels (slow it down?)
+-	Either remove or add more to Place Tower function
+-	Mess with some Zombie death sounds
+-	Increase size of info in top left
+
+
+Bugs:
+- Esc button doesn’t work at end of 2nd level
+- Player can walk through wall to base
+
+
 -----User Controls-----
 - Movement: WASD
 - Player shoot: Left click
