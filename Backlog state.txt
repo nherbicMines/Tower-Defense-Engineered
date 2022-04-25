@@ -1,3 +1,6 @@
+Bugs:
+Towers will lose ammo even when they are not actively shooting at enemies.
+
 Features:
 Player Movement (finished)
 Sprites for all assets (finished)
