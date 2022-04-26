@@ -2,7 +2,7 @@
 enum STATE {
 	WON,
 	LOST,
-	PLAYING
+	PLAYING,
 }
 
 global.score = 0;
@@ -20,6 +20,20 @@ global.enemies_left = instance_number(obj_enemy)
 + instance_number(obj_enemyDown6);
 
 global.game_state = STATE.PLAYING;
+
+
+// Vars for pause menu
+in_menu = false;
+pos = 0;
+start_x = room_width/2 - 10;
+start_y = room_height/2.5;
+
+op_space = 50;
+menu_message = "Quit to Title Screen?";
+option[0] = "Yes";
+option[1] = "No";
+
+op_size = array_length(option);
 
 alarm[0] = room_speed;
 

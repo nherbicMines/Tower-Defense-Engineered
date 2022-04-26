@@ -16,7 +16,7 @@ if (!instructions){
 	draw_set_font(fnt_announce);
 	for(var i = 0; i < op_size; i++){
 	draw_set_color(c_white);
-	if (pos == i) {draw_set_color(c_aqua);}
+	if (pos == i) {draw_set_color(c_black);}
 	draw_text(start_x - string_length(option[i])*8, start_y + op_space*i, option[i]);
 	}
 }
