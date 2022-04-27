@@ -27,14 +27,14 @@ if (in_menu) {
 	// Check for down arrow key of menu
 	instance_deactivate_all(true);
 	
-	if(keyboard_check_pressed(vk_down)){
+	if(keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S"))){
 		pos += 1;
 	
 		if (pos >= op_size) { pos = op_size -1 };
 	}
 
 	// Check the up arrow key for menu
-	if(keyboard_check_pressed(vk_up)){
+	if(keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W"))){
 		pos -= 1;
 	
 		if (pos < 0) { pos = 0 };
