@@ -43,7 +43,7 @@
     {"id":{"name":"obj_enemyUp2","path":"objects/obj_enemyUp2/obj_enemyUp2.yy",},"order":18,},
     {"id":{"name":"obj_enemyDown4","path":"objects/obj_enemyDown4/obj_enemyDown4.yy",},"order":15,},
     {"id":{"name":"obj_enemyDown5","path":"objects/obj_enemyDown5/obj_enemyDown5.yy",},"order":16,},
-    {"id":{"name":"snd_reload","path":"sounds/snd_reload/snd_reload.yy",},"order":5,},
+    {"id":{"name":"snd_repair","path":"sounds/snd_repair/snd_repair.yy",},"order":5,},
     {"id":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},"order":1,},
     {"id":{"name":"fnt_announce","path":"fonts/fnt_announce/fnt_announce.yy",},"order":2,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},

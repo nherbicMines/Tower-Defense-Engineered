@@ -35,12 +35,12 @@ else{
 draw_sprite(spr_healthbar_border, 0, healthbar_x, healthbar_y);
 draw_sprite_stretched(spr_healthbar, 0, healthbar_x, healthbar_y, (bulletCount/startingBullets) * healthbar_width, healthbar_height);
 
-// Draw layer to tell player to press X to reload
+// Draw layer to tell player to press X to repair
 if(active){
 	draw_set_font(fnt_healthbar);
 	draw_set_color(c_white);
 	if (!upgraded) {
-		draw_text(x-45, y-70, "Press RMB To Upgrade");
+		draw_text(x-45, y-70, "Press Right-Click To Upgrade");
 	}
-	draw_text(x-45, y-84, "Press SPACE To Reload");
+	draw_text(x-45, y-84, "Press SPACE To Repair");
 }

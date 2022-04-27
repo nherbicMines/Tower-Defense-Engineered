@@ -11,7 +11,7 @@ cooldown = 0;
 image_xscale = .5;
 image_yscale = .5;
 
-// Cooldown on reload and upgrades
+// Cooldown on repair and upgrades
 can_upgrade = true;
 
 tick_length = sprite_width/hitsLeft;

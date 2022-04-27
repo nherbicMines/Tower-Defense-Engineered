@@ -1,2 +1,2 @@
-/// @description Reload cooldown
-can_reload = true;
+/// @description repair cooldown
+can_repair = true;

@@ -22,19 +22,19 @@ else {
 }
 
 
-// Reload bullets
-if(active && keyboard_check_pressed(vk_space) && can_reload){
+// repair bullets
+if(active && keyboard_check_pressed(vk_space) && can_repair){
 	bulletCount = startingBullets;
-	obj_player.can_reload = false;
-	audio_play_sound(snd_reload, 1, false);
-	can_reload = false;
+	obj_player.can_repair = false;
+	audio_play_sound(snd_repair, 1, false);
+	can_repair = false;
 	alarm[1] = room_speed * 5;
 }
 // Upgrade tower
 if(active && mouse_check_button(mb_right) && (!upgraded) && obj_player.can_upgrade){
 	audio_play_sound(snd_tower_upgrade, 2, false);
 	startingBullets = 40;
-	bulletCount *= 2;
+	bulletCount = startingBullets;
 	shot_delay = 0.5;
 	sprite_index = spr_tower1_upgraded;
 	upgraded = true;

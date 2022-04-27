@@ -11,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_reload.wav",
+  "soundFile": "snd_repair.wav",
   "duration": 1.521429,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "snd_reload",
+  "name": "snd_repair",
   "tags": [],
   "resourceType": "GMSound",
 }

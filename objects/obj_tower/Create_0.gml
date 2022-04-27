@@ -14,7 +14,7 @@ barAlpha = 1;
 
 // For interaction with player
 active = false;
-can_reload = true;
+can_repair = true;
 
 
 // alt healthbar
