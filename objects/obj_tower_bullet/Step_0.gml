@@ -12,8 +12,17 @@ if (x < cam_x || x > (cam_x + cam_w) || y < cam_y || y > (cam_y + cam_h)) {
 }
 
 if instance_exists(obj_enemy) {
-	inst = instance_nearest(x, y, obj_enemy);
-	move_towards_point(inst.x, inst.y, 5);
+	if (isTargeting == 0){
+		inst = instance_nearest(x, y, obj_enemy);
+		isTargeting = 1;
+	}
+	if (instance_exists(inst)){
+		move_towards_point(inst.x, inst.y, 5);
+	}else {
+		instance_destroy();
+	}
+	//inst = instance_nearest(x, y, obj_enemy);
+	//move_towards_point(enemyTarget.x, enemyTarget.y, 5);
 }
 else {
 	instance_destroy();
