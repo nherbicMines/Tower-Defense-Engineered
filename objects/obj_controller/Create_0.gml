@@ -9,7 +9,13 @@ global.score = 0;
 
 global.base_lives = 5;
 
-global.level = 1;
+if(room = Room1){
+	global.level = 1;
+}
+else if (room = Room3){
+	global.level = 2;
+}
+
 
 global.enemies_left = instance_number(obj_enemy) 
 + instance_number(obj_enemyDown1)
