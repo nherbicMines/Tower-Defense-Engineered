@@ -16,8 +16,9 @@ if (!in_menu) {
 
 	if (global.enemies_left <= 0 && global.base_lives > 0 && room==Room1) {
 		global.game_state = STATE.WON;
+		global.level = 2;
 		audio_stop_sound(snd_level_music);
-		room_goto(Room3);
+		room_goto(Room2);
 	}
 }
 

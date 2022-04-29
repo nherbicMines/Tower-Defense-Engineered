@@ -2,8 +2,8 @@
 
 
 spd = 3;
-LRspd = 0;
-UDspd = 0;
+speedLR = 0;
+speedUD = 0;
 hitsLeft = 10;
 
 cooldown = 0;
