@@ -33,7 +33,7 @@ if(active && keyboard_check_pressed(vk_space) && can_repair){
 // Upgrade tower
 if(active && mouse_check_button(mb_right) && (!upgraded) && obj_player.can_upgrade){
 	audio_play_sound(snd_tower_upgrade, 2, false);
-	startingBullets = 40;
+	startingBullets = 30;
 	bulletCount = startingBullets;
 	shot_delay = 0.5;
 	sprite_index = spr_tower1_upgraded;

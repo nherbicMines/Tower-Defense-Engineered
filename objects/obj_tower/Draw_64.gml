@@ -44,3 +44,13 @@ if(active){
 	}
 	draw_text(x-45, y-84, "Press SPACE To Repair");
 }
+if (upgraded){
+	draw_set_font(fnt_healthbar);
+	draw_set_color(c_yellow);
+	draw_text(x-40, y+20, "2x Ammo!");
+}
+if (!can_repair){
+	draw_set_font(fnt_healthbar);
+	draw_set_color(c_white);
+	draw_text(x-44, y-36, "Repair in: [" +  string(ceil(alarm[1]/room_speed)) + "]");
+}
