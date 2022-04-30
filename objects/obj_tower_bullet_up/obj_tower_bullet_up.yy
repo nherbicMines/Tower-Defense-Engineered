@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_bullet_upgraded",
-    "path": "sprites/spr_bullet_upgraded/spr_bullet_upgraded.yy",
+    "name": "spr_bullet",
+    "path": "sprites/spr_bullet/spr_bullet.yy",
   },
   "solid": false,
   "visible": true,
@@ -33,7 +33,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_tower_bullet",
+  "name": "obj_tower_bullet_up",
   "tags": [],
   "resourceType": "GMObject",
 }

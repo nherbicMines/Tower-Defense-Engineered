@@ -1,6 +1,10 @@
 /// @description Tower Shooting
 if (instance_exists(obj_enemy) && bulletCount > 0)  {
-	var currBullet = instance_create_layer(x, y, "Instances", obj_tower_bullet);
+	if (upgraded) {
+		var currBullet = instance_create_layer(x, y, "Instances", obj_tower_bullet);
+	} else {
+		var currBullet = instance_create_layer(x, y, "Instances", obj_tower_bullet_up);
+	}
 	bulletCount -=1;
 	with currBullet {
 		inst = instance_nearest(x, y, obj_enemy);
