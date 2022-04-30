@@ -24,7 +24,7 @@ if(active){
 if (upgraded){
 	draw_set_font(fnt_healthbar);
 	draw_set_color(c_yellow);
-	draw_text(x-40, y+20, "2x Ammo!");
+	draw_text(x-40, y+20, "2x Durability!");
 }
 if (!can_repair){
 	draw_set_font(fnt_healthbar);

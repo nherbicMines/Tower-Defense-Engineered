@@ -1,12 +1,19 @@
 /// @description Player Movement
 
 var keyleft = keyboard_check(ord("A"));
-var keyright = keyboard_check(ord("D"));
-var keyup= keyboard_check(ord("W"));
-var keydown = keyboard_check(ord("S"));
+var keyleft_arrows = keyboard_check(vk_left);
 
-var moveLR = keyright - keyleft;
-var moveUD = keydown - keyup;
+var keyright = keyboard_check(ord("D"));
+var keyright_arrows = keyboard_check(vk_right);
+
+var keyup= keyboard_check(ord("W"));
+var keyup_arrows = keyboard_check(vk_up);
+
+var keydown = keyboard_check(ord("S"));
+var keydown_arrows = keyboard_check(vk_down);
+
+var moveLR = (keyright || keyright_arrows) - (keyleft || keyleft_arrows);
+var moveUD = (keydown || keydown_arrows) - (keyup || keyup_arrows);
 
 speedLR = spd * moveLR;
 speedUD = spd * moveUD;
