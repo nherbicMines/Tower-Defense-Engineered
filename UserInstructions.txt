@@ -1,0 +1,13 @@
+Controls:
+Movement: WASD 
+Player shoot: Left click
+Reload towers: Spacebar (when not on cooldown)
+Upgrade towers: Right click (when not on cooldown)
+
+How To Play:
+When you spawn in, your objective is to protect the wall from the group of enemies
+coming at it. You have two weapons, your character's gun and the towers. The main
+idea is to run around repairing the towers while also shooting at enemies with
+your own weapon. You will need to repeatedly repair towers so they continue shooting
+and upgrade them when possible. There are two levels, and you win after completing the
+second level or lose when the wall runs out of health.
